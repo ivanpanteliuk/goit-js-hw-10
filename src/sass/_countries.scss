@@ -1,0 +1,53 @@
+input {
+    margin-top: 20px;
+    margin-left: 20px;
+
+    width: 100px;
+    border-radius: 7px;
+    transition: width 0.2s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(61, 167, 60);
+    border-radius: 7px;
+    border-width: 4px;
+    width: 100%;
+}
+
+.country-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.country-item{
+    margin-bottom: 15px;
+   }
+
+.country-container{
+    display: flex;
+    align-items: center;
+}
+
+.country-text {
+    margin: 0;
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.country-header {
+    margin-left: 5px;
+    font-size: 35px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.country-maintext {
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 800;
+}
